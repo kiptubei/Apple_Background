@@ -1,3 +1,6 @@
+# Repo linter files
+stylelint.config.js
+
 # Prerequisites
 *.d
 
