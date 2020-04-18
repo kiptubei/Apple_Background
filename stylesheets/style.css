@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("fonts/LucidaGrandeRegular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 *,
 *::before,
 *::after {
@@ -9,27 +14,23 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
+  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .container {
   margin: 0 auto;
-  width: 1200px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 970px;
 }
 
 .primary-header {
-  margin-top: 5%;
-  border: 1px solid black;
+  margin-top: 7%;
 }
 
 .primary-nav {
-  border: 1px solid red;
-  background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-  padding: 22px 0 22px 0;
+  height: 2.5rem;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  border-radius: 5px;
+  display: flex;
 }
 
 .banner {
@@ -40,13 +41,27 @@ body {
   padding-top: 5%;
 }
 
-.banner h2 {
-  font-size: 36px;
+.banner p {
+  font-size: 3rem;
+  font-stretch: semi-expanded;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
 }
 
 .banner h3 {
-  font-size: 24px;
+  font-size: 1.7rem;
   font-weight: 100;
+}
+
+.banner span {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 5rem;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
 }
 
 .iphone-ads {
@@ -68,7 +83,7 @@ body {
 .apple-footer {
   display: flex;
   flex-direction: row;
-  font-size: 0.75rem;
+  font-size: 0.62rem;
   line-height: 1rem;
   color: #777;
   margin-top: 1.5rem;
@@ -82,9 +97,9 @@ body {
 
 .apple-footer-div {
   width: 50%;
-  border: 1px solid green;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  border: none;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 
 .apple-footer-div-text a {
@@ -94,7 +109,7 @@ body {
 .footer-copyright {
   display: flex;
   flex-direction: row;
-  padding-left: 0.4rem;
+  padding-left: 0.2rem;
 }
 
 .footer-copyright a {
@@ -107,8 +122,43 @@ body {
   line-height: 1.5rem;
 }
 
+.banner a:hover {
+  text-decoration: underline;
+}
+
 .bg-image {
-  border: 1px solid black;
+  border: 1px solid white;
   height: 550px;
   background: url("../images/your_verse_hero.jpg") 50% 100% no-repeat;
+}
+
+.btn-apple {
+  height: 2.3rem;
+  width: 6.5rem;
+  color: white;
+  border: none;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  margin-top: 1px;
+  border-right: 1px solid rgb(128, 128, 128);
+}
+
+.btn-apple img {
+  padding: 0.1px;
+  margin: -5px;
+}
+
+.in-apple {
+  width: 7rem;
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+  padding-left: 7px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  background-image: url("http://www.clker.com/cliparts/5/N/0/x/w/j/search-icon-marine-th.png");
+  background-size: 0.8rem;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 5px;
+  border: solid;
+  border-color: rgb(105, 105, 105);
 }
