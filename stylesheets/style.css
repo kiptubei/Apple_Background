@@ -1,143 +1,114 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
-  color: #505050;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
-a {
-  color: #0077c5;
-  text-decoration: none;
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.main-container-div {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(236, 238, 241);
-}
-
-.nav-bar-div {
-  width: 100%;
-  height: 3.125rem;
-  background-color: rgb(236, 238, 241);
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 1rem;
-}
-
-.sign-up-btn-div {
-  background-color: #0077c5;
-  color: white;
-  text-align: center;
-  border-radius: 0.3rem;
-  margin-left: 1rem;
-  width: 6rem;
-  height: 2.5rem;
-  margin-right: 3rem;
+.primary-header {
+  margin-top: 5%;
   border: 1px solid black;
 }
 
-.nav-bar-text-div {
-  font-size: 0.8rem;
-  line-height: 1.5em;
+.primary-nav {
+  border: 1px solid red;
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 22px 0 22px 0;
 }
 
-.nav-bar-text-div span {
-  color: #0077c5;
-}
-
-.logo_and_form_main {
-  display: flex;
-  flex-direction: column;
+.banner {
+  color: #fff;
+  line-height: 44px;
+  padding: 0 80px 66px 80px;
   text-align: center;
+  padding-top: 5%;
 }
 
-.logo-div {
-  display: flex;
-  justify-content: center;
+.banner h2 {
+  font-size: 36px;
 }
 
-.form-div {
-  display: flex;
-  justify-content: center;
-}
-
-.form-section {
-  width: 30%;
-  background-color: white;
-  border: 1px solid grey;
-  margin-top: 1.5rem;
-  border-width: 1px;
-  border-color: rgb(203, 204, 199);
-}
-
-.form-text-div h3 {
-  font-size: 1.5rem;
-  line-height: 4rem;
+.banner h3 {
+  font-size: 24px;
   font-weight: 100;
 }
 
-.input-boxes-div {
-  margin: 1rem;
-  margin-top: 0.5rem;
-  padding: 2rem 0.01rem 2rem 0.01rem;
+.iphone-ads {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.input-boxes-div fieldset {
-  margin-top: 1rem;
-  padding: 0.5rem;
-  text-align: left;
+.iphone-ads-image {
+  margin-right: 2px;
 }
 
-.input-boxes-div input {
+.iphone-ads-image-4 img,
+.iphone-ads-image img {
   width: 100%;
-  height: 2rem;
-  border: 0.5px solid grey;
-  border-radius: 0.2rem;
+  height: 100%;
+  object-fit: contain;
 }
 
-.input-boxes-div p {
-  margin-top: 0.4rem;
-  font-size: 0.65rem;
-  text-align: left;
-}
-
-.input-btn-div {
-  background-color: #0077c5;
-  color: white;
-  text-align: center;
-  border: none;
-  border-radius: 0.2rem;
-  width: 100%;
-  height: 2.5rem;
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.form-disclaimer-div {
-  font-size: small;
-  line-height: 1.5rem;
-  font-style: italic;
+.apple-footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #777;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.form-footer-div {
-  background-color: rgb(236, 238, 241);
-  font-size: xx-small;
-  padding: 1.5rem;
+.apple-footer a {
+  text-decoration: none;
+  color: blue;
 }
 
-.footer-div {
-  font-size: small;
-  margin: 2rem;
-  line-height: 1rem;
+.apple-footer-div {
+  width: 50%;
+  border: 1px solid green;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.footer-div a {
-  color: #505050;
+.apple-footer-div-text a {
+  color: rgb(0, 136, 204);
 }
 
-#footer-spacing {
-  word-spacing: 10px;
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.4rem;
+}
+
+.footer-copyright a {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  color: rgb(0, 136, 204);
+}
+
+.apple-footer-div-text {
+  line-height: 1.5rem;
+}
+
+.bg-image {
+  border: 1px solid black;
+  height: 550px;
+  background: url("../images/your_verse_hero.jpg") 50% 100% no-repeat;
 }
