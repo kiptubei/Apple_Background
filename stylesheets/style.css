@@ -29,11 +29,7 @@ body {
 
 .primary-nav {
   height: 2.3rem;
-  background: linear-gradient(
-    rgb(168, 168, 168),
-    rgb(105, 105, 105) 50%,
-    rgb(95, 95, 95) 51%
-  );
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50% rgb(95, 95, 95) 51%);
   border-radius: 5px;
   display: flex;
 }
@@ -153,11 +149,7 @@ body {
 .li-apple li {
   height: 2.2rem;
   width: 6.5rem;
-  background: linear-gradient(
-    rgb(168, 168, 168),
-    rgb(105, 105, 105) 50%,
-    rgb(95, 95, 95) 51%
-  );
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
   border-right: 1px solid rgb(128, 128, 128);
   padding-top: 0.7rem;
   text-align: center;
@@ -174,11 +166,7 @@ body {
   margin-top: 0.6rem;
   padding-left: 7px;
   border-radius: 10px;
-  background: linear-gradient(
-    rgb(168, 168, 168),
-    rgb(105, 105, 105) 50%,
-    rgb(95, 95, 95) 51%
-  );
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
   background-image: url("http://www.clker.com/cliparts/5/N/0/x/w/j/search-icon-marine-th.png");
   background-size: 0.8rem;
   background-repeat: no-repeat;
