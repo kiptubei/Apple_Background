@@ -29,7 +29,7 @@ body {
 
 .primary-nav {
   height: 2.3rem;
-  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50% rgb(95, 95, 95) 51%);
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
   border-radius: 5px;
   display: flex;
 }
@@ -163,7 +163,7 @@ body {
 .in-apple {
   width: 7rem;
   margin-left: 1rem;
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
   padding-left: 7px;
   border-radius: 10px;
   background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
