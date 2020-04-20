@@ -24,7 +24,7 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
-You can view the site itself [here](https://rawcdn.githack.com/kiptubei/Apple_Background/321a1abcb78fe48784149efa7276c55525ede2b8/index.html) .Have fun!
+You can view the site itself [here]() .Have fun!
 
 ## Authors
 
