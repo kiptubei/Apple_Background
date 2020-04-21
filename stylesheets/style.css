@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("fonts/LucidaGrandeRegular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Manrope", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  margin: 0 auto;
+  width: 970px;
+}
+
+.primary-header {
+  margin-top: 7%;
+}
+
+.primary-nav {
+  height: 2.3rem;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  border-radius: 5px;
+  display: flex;
+}
+
+.banner {
+  color: #fff;
+  line-height: 44px;
+  padding: 0 80px 66px 80px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.banner h3 {
+  font-size: 3rem;
+  font-stretch: semi-expanded;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+}
+
+.banner p {
+  font-size: 1.7rem;
+  font-weight: 100;
+}
+
+.banner span {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 5rem;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+}
+
+.iphone-ads {
+  display: flex;
+  flex-direction: row;
+}
+
+.iphone-ads-image {
+  margin-right: 2px;
+}
+
+.iphone-ads-image-4 img,
+.iphone-ads-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.apple-footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.63rem;
+  font-weight: bold;
+  line-height: 1rem;
+  color: rgb(105, 105, 105);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.apple-footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.apple-footer-div {
+  width: 50%;
+  border: none;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.apple-footer-div-text a {
+  color: #08c;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.2rem;
+}
+
+.footer-copyright a {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  color: #08c;
+}
+
+.apple-footer-div-text {
+  line-height: 1.5rem;
+}
+
+.li-apple a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+.bg-image {
+  border: 1px solid white;
+  height: 550px;
+  background: url("../images/your_verse_hero.jpg") 50% 100% no-repeat;
+}
+
+.li-apple {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.li-apple li {
+  height: 2.2rem;
+  width: 6.5rem;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  border-right: 1px solid rgb(128, 128, 128);
+  padding-top: 0.7rem;
+  text-align: center;
+}
+
+.li-apple img {
+  padding: 0.1px;
+  margin: -5px;
+}
+
+.in-apple {
+  width: 7rem;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  padding-left: 7px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(168, 168, 168), rgb(105, 105, 105) 50%, rgb(95, 95, 95) 51%);
+  background-image: url("http://www.clker.com/cliparts/5/N/0/x/w/j/search-icon-marine-th.png");
+  background-size: 0.8rem;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 5px;
+  border: solid;
+  border-color: rgb(105, 105, 105);
+}
